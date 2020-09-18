@@ -86,5 +86,6 @@ async def LOL(ctx):
     embed.set_image(url="https://cdn.discordapp.com/attachments/754765689729843310/754765707916476506/worldsannouncement-1600x900-v1.0.jpg")
     await ctx.send(embed=embed)
 
-
-bot.run('NzQyNTQyMzU0NzA3MjUxMjgx.XzHodQ.DpvKGY6cHhIx6makeVLqfL6mHGQ')
+    
+access_token = os.environ["BOT_TOKEN"]
+bot.run(access_token)
