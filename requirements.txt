@@ -1,0 +1,7 @@
+asyncio==3.4.3
+discord.py==1.4.1	
+DateTime==4.3
+bs4==0.0.1
+async-timeout==3.0.1
+random2==1.0.1
+people==0.1.9
